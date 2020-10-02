@@ -27,7 +27,7 @@ body{
 
 .container {
     display: grid;
-    grid-template: 2fr 7fr 1fr / 3fr 1fr;
+    grid-template: 2fr 7fr 5% / 3fr 1fr;
 }
 
 header{
@@ -65,8 +65,8 @@ footer{
 
 header img{
     border-radius: 50%;
-    width: 250px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 header h1, header span{
@@ -77,8 +77,8 @@ header h1, header span{
 
 main div{
     position: relative;
-    left: 50px;
-    top: 50px;
+    left: 5%;
+    top: 2%;
     width: 80%;
     height: 80%;
 }
@@ -101,16 +101,63 @@ article p{
 
 
 article img{
-    width: 300px;
-    height: 200px;
+    width: 275px;
+    height: 150px;
 }
 
 .floatleft{
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .floatright{
     float: right;
     margin-left: 10px;
+}
+
+/*ASIDE ELEMENTS*/
+
+aside div{
+    position: relative;
+    right: 5%;
+    top: 2%;
+    height: 80%;
+}
+
+section h3{
+    color: var(--secondary-heading-color);
+    margin: 5px 0px;
+}
+
+section p{
+    color: var(--default-color);
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+section li, section ul{
+    font-size: 15px;
+    list-style: none;
+    position: relative;
+    right: 20px;
+    margin: 5px 0px;
+}
+
+section li a{
+    color: var(--section-link-color);
+    text-decoration: none;
+}
+
+.about{
+    background-color: var(--secondary-background-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/*FOOTER ELEMENTS*/
+
+footer div{
+    position: relative;
+    left: 70px;
+    width: 50%;
 }
